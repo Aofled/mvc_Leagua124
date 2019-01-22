@@ -1,0 +1,101 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ProgressBar
+        android:id="@+id/progressStandingBar"
+        android:theme="@style/AppTheme.DarkAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#EDEDED">
+
+        <TextView
+            android:id="@+id/tv_name_team"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="TOP"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_games"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="G"
+            app:layout_constraintEnd_toStartOf="@+id/tv_winning"
+            />
+
+        <TextView
+            android:id="@+id/tv_winning"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="W"
+            app:layout_constraintEnd_toStartOf="@+id/tv_draws"
+            />
+
+        <TextView
+            android:id="@+id/tv_draws"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="D"
+            app:layout_constraintEnd_toStartOf="@+id/tv_defeats"
+             />
+
+        <TextView
+            android:id="@+id/tv_defeats"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="L"
+            app:layout_constraintEnd_toStartOf="@+id/tv_goals"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_goals"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="GD"
+            app:layout_constraintEnd_toStartOf="@+id/tv_points"
+            />
+
+        <TextView
+            android:id="@+id/tv_points"
+            android:layout_marginRight="5dp"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="PTS"
+            app:layout_constraintEnd_toEndOf="parent"
+             />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerStandongView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

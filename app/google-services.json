@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "3376342157",
+    "firebase_url": "https://leagua124-9aca7.firebaseio.com",
+    "project_id": "leagua124-9aca7",
+    "storage_bucket": "leagua124-9aca7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3376342157:android:b6afe6ebb29bf3f7",
+        "android_client_info": {
+          "package_name": "com.createsmart.aofled.leagua124"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3376342157-ddi74cadq0brbgj5b5bmh7en4mtia3ds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.createsmart.aofled.leagua124",
+            "certificate_hash": "54651607795276ca107bc814429f8c4d6f3365bb"
+          }
+        },
+        {
+          "client_id": "3376342157-gqk7ob7f7sv3v1h70g6pgkaucj5uep6t.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "3376342157-gqk7ob7f7sv3v1h70g6pgkaucj5uep6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlTh5zv7LLIcMnJZXkfDnsienxyNI3Zoc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3376342157-gqk7ob7f7sv3v1h70g6pgkaucj5uep6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

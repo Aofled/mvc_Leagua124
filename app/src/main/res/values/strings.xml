@@ -1,0 +1,25 @@
+<resources>
+<string name="app_name">Leagua124</string>
+<string name="navigation_drawer_open">Open navigation drawer</string>
+<string name="navigation_drawer_close">Close navigation drawer</string>
+<string name="nav_header_title">Android Studio</string>
+<string name="nav_header_subtitle">android.studio@android.com</string>
+<string name="nav_header_desc">Navigation header</string>
+<string name="action_settings">Settings</string>
+
+
+
+<string name="exit">Нажмите еще раз, что бы выйти</string>
+<string name="fast_click">Быстрое нажатие на ячейку</string>
+<string name="long_click">Долгое нажатие на ячейку</string>
+<string name="data_loading_0">Данные загружены пачка 0</string>
+<string name="data_fail_0">Ошибка при загрузке, пачка 0</string>
+<string name="connection_fail_0">Ошибка при загрузке, не работает интрнет, пачка 0</string>
+<string name="connect_fail">Проверьте ваше интернет соединение</string>
+<string name="data_loading_next">Данные ДОгружены, пачка</string>
+<string name="data_fail_next">Ошибка при загрузке, пачка</string>
+<string name="connection_fail_next">Ошибка при загрузке, не работает интрнет, пачка</string>
+<string name="end_of_list">Конец списка</string>
+<string name="end_of_list_next">Конец списка последняя пачка</string>
+<string name="data_loading_DB">Данные загружены с базы данных</string>
+</resources>

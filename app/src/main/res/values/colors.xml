@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#313944</color>
+<color name="colorPrimaryDark">#313944</color>
+<color name="colorAccent">#FFFF01</color>
+
+<color name="colorPrimaryDarkStatus">#262c34</color>
+
+<color name="colorHint">#B5B5B5</color>
+<color name="colorGray">#FAFAFA</color>
+
+<color name="colorTimeBar">#81C784</color>
+<color name="colorDateBar">#c78581</color>
+
+
+<color name="colorRecyclerView">#e0e0e0</color>
+
+
+<color  name ="colorRed">#FFFF0202</color>
+<color  name ="colorGreen">#FF42CD53</color>
+<color  name ="colorPink">#cd42c4</color>
+
+
+
+<color name="colorWith">#ffffff</color>
+
+
+
+<color name="colorNavNick"> #8B8B8B</color>
+
+<color name="colorNavName">#E1E1E1</color>
+<color name="colorNavEvent">#EAEAEA</color>
+
+<color name="colorNicName">#CACACA</color>
+<color name="colorProfil">#D5D5D5</color>
+<color name="colorDivider">#b5b5b5</color>
+
+
+<color name="colorListNick">#8B8B8B</color>
+<color name="colorListName">#040404</color>
+<color name="colorListEvent">#343434</color>
+<color name="colorBlack">#000000</color>
+</resources>

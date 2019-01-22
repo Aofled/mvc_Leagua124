@@ -1,0 +1,64 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/border_yes2">
+
+
+    <TextView
+        android:id="@+id/tv_id_player"
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_player_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Кузмич Андрей"
+        android:textSize="17sp"
+
+        app:layout_constraintEnd_toStartOf="@+id/tv_player_age"
+        app:layout_constraintStart_toEndOf="@+id/tv_id_player"
+        />
+
+    <TextView
+        android:id="@+id/tv_player_position"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Нападающий"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_player_age"
+        app:layout_constraintStart_toEndOf="@+id/tv_id_player"
+        app:layout_constraintTop_toBottomOf="@+id/tv_player_name" />
+
+    <TextView
+        android:id="@+id/tv_player_age"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="24"
+        app:layout_constraintEnd_toStartOf="@+id/tv_player_goals" />
+
+
+    <TextView
+        android:id="@+id/tv_player_goals"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
